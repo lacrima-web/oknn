@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #98b8f8;
+    color: white;
+    padding: 20px;
+}
+
+.header-title {
+    margin: 0 0 0 252px;
+    font-size: 24px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #40628e;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo i {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.logo-teks {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-right: 80px solid transparent;
+}
+
+.menu li a i {
+    margin-right: 10px;
+}
+
+.menu li a:hover {
+    background-color: #98b8f8;
+    border-left: 5px solid white;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    background-color: #ECEEDF;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+nav ul li {
+    margin: 0 30px;
+    position: relative;
+    transition: transform 0.3s;
+}
+
+nav ul li:hover {
+    transform: translateY(-7px);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #374d69;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f54c98;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    color: #374d69;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-weight: 800;
+    color: #000000;
+    font-family: 'times new roman', Times, serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    font-weight: bold;
+    color: white;
+    background-color: #98b8f8;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+a.tbl-biru:hover {
+    background-color: #f54c98;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    font-weight: bold;
+    color: white;
+    background-color: #f54c98;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+a.tbl-pink:hover {
+    background-color: #98b8f8;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.chefs-list {
+    display: flex;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.kartu-chefs {
+    width: 20%;
+    margin: auto;
+}
+
+.kartu-chefs img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-chefs p {
+    font-size: 25px;
+    font-weight: 800;
+    color: #40628e;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#contact {
+    background: #ffffff;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    word-wrap: wrap;
+    margin: auto;
+}
+
+#copyright {
+    background: #dbe8ff;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 18px;
+    color: #2b3238;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+    .wrapper {
+        width: 90%;
+    }
+}
