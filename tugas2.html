@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="styley.css">
+    </head>
+    <body>
+        <h1 class="judul">Formulir Pendaftaran Volunteer Medan Tahun 2025</h1>
+        <form action="#">
+            <fieldset style="width: 350px; margin-left: 350px;">
+                <legend>Akun</legend>
+
+                Email:
+                <br><input type="text" name="email" id="email">
+
+                Nama:
+                <br><input type="text" name="nama" id="nama">
+
+                <br><label for="pass">Password:</label>
+                <br><input type="text" name="pass" id="pass">
+
+                <br><label for="pass">Konfirmasi Password:</label>
+                <br><input type="text" name="pass" id="pass">
+            </fieldset>
+            
+            <fieldset style="width: 350px; margin-left: 350px;">
+                <legend>Data</legend>
+                <label for="nama-lengkap">Nama Lengkap:</label>
+                <br><input type="text" name="nama-lengkap" id="nama-lengkap">
+
+                Alamat Tempat Tinggal:
+                <textarea name="alamat" id="alamat" cols="45" rows="5"></textarea>
+
+                <br>Gender:
+                <br>
+                    <input type="radio" name="jk" id="laki-laki" value="laki-laki">
+                    <label for="laki-laki">Laki-laki</label>
+                </br>
+                <input type="radio" name="jk" id="perempuan" value="perempuan">
+                <label for="perempuan">Perempuan</label><br>
+
+                <br>Informasi yang Disukai:
+                <br>
+                    <input type="checkbox" name="info" id="komputer">
+                    <label for="komputer">Komputer</label>
+                    <input type="checkbox" name="info" id="buku">
+                    <label for="buku">Buku</label>
+                    <input type="checkbox" name="info" id="anime">
+                    <label for="anime">Anime</label>
+                    <input type="checkbox" name="info" id="movie">
+                    <label for="movies">Movies</label>
+                    <br><input type="checkbox" name="info" id="other">
+                    <label for="other">Lainnya</label>
+                </br>
+
+                <br><label for="prodi">Program Studi:</label>
+                <br><select name="prodi" id="">
+                        <option value="option">Option</option>
+                        <option value="si">Sastra Inggris</option>
+                        <option value="pdsi">Perpustakaan dan Sains Informasi</option>
+                        <option value="psi">Psikologi</option>
+                        <option value="sa">Sastra Arab</option>
+                        <option value="ilkom">Ilmu Komputer</option>
+                        <option value="ti">Teknologi Informasi</option>
+                    </select>
+                </br>
+            </fieldset>     
+        </form>
+
+        <label style="width: 350px; margin-left: 350px;">
+            <input type="submit" value="Submit">
+        </label>
+    </body>
+</html>
